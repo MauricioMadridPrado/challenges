@@ -1,0 +1,54 @@
+@import url("titulo.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background: black;
+    color: wheat;
+    font-size: 1.5rem;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    margin: 1em;
+}
+button:hover {
+cursor: pointer;
+}
+select {
+    padding: 0.5em 1em;
+    font-size: 1.25rem;
+    border-radius:  1em 1em 0 0;
+    text-align: center;
+}
+input {
+    width: 50px;
+    padding: 0.5em;
+    font-size: 1.25rem;
+}
+div {
+    margin: 2em 0 ;
+}
+h1 {
+    font-size: 3rem;
+
+    text-shadow: 0.2em 0.2em 4 black;
+}
+h3{
+    font-size: 3rem;
+    text-align: end;
+    margin-right: 25px;
+}
+span{
+    font-size: 2rem;
+}

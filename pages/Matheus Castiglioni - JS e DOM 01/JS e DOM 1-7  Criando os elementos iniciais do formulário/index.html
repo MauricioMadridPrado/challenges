@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="titulo__principal">Cadastro de pessoas</h1>
+      <form data-form="formulario" class="form js-form">
+        <label for="name">
+          Nome
+          <input
+            class="form-field js-field"
+            id="name"
+            min="3"
+            maxlength="120"
+            name="name"
+            required
+            type="text"
+          />
+        </label>
+        <label for="birth-date">
+          Data de Nascimento
+          <input
+            class="form-field js-field"
+            id="birth-date"
+            name="birth-date"
+            required
+            type="date"
+          />
+        </label>
+        <button type="submit">Salvar</button>
+      </form>
+      <script type="module" src="./js/main.js"></script>
+    </main>
+  </body>
+</html>

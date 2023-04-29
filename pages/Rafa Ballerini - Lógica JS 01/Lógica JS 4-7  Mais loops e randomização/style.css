@@ -1,0 +1,43 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.formulario label {
+    font-size: 1.5rem;
+}
+.formulario input {
+    font-size: 1.5rem;
+    text-align: center;
+    width: fit-content;
+    align-self: center;
+    border: none;
+    box-shadow: 0 0 0.2em black;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+}
+.local__resultado{
+    position: fixed;
+    top: 10%;
+}
+button{
+    background: transparent;
+    font-size: 1.5rem;
+    width: fit-content;
+    align-self: center;
+    padding: 0.5em 1em;
+    border: none;
+    box-shadow: 0 0 0.5em black;
+}
+button:hover{
+    cursor: pointer;
+}

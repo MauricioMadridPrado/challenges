@@ -1,0 +1,33 @@
+.titulo__aviso__adicionado {
+}
+.aviso__adicionado {
+}
+.gostaria__add__itens{
+    font-size: 1.25rem;
+}
+.aviso__adicionado__itens {
+}
+.container__selecao {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 	1em;
+}
+.aviso__adicionado__itens {
+}
+.botao__selecao{
+    padding: 0.5em 3em;
+    border-radius: 1em;
+    background-color: black;
+    color: wheat;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.botao__selecao:hover{
+    cursor: pointer;   
+    box-shadow: 0 0 0.2em black;
+}
+.botao__selecao:active{
+    scale: 1.1;
+   
+}

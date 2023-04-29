@@ -1,0 +1,48 @@
+.formulario {
+}
+.adiciona__container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.adiciona__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.adiciona__item label {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.adiciona__item input {
+    font-size: 1.25em;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-align: center;
+
+}
+
+.botao__adiciona_item {
+    background: rgba(0, 255, 0, 0.1);
+    padding:  1em 2em;
+    border-radius: 1em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.botao__adiciona_item:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background: wheat;
+    box-shadow: 0 0 1em black;
+}
+.botao__adiciona_item:active{
+    background: yellow;
+    scale: 1.2;
+}
+.menu__suspenso{
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 1em;
+}

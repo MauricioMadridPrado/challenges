@@ -1,0 +1,36 @@
+.deleta__item {
+}
+
+.remove__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .remove__item label {
+      font-size: 1.5em;
+      font-weight: 700;
+  }
+  .remove__iteminput {
+      font-size: 1.25em;
+      padding: 0.5em;
+      border-radius: 1em;
+      text-align: center;
+  
+  }
+.botao__remove_item{
+    background: rgba(255, 0, 0, 0.1);
+    padding:  1em 2em;
+    border-radius: 1em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.botao__remove_item:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background: wheat;
+    box-shadow: 0 0 1em black;
+}
+.botao__remove_item:active{
+    background: yellow;
+    scale: 1.2;
+}

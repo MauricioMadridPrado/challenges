@@ -1,0 +1,27 @@
+.primeiro__item__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.primeiro__item{
+    padding: 1em;
+    font-size: 1.5rem;
+}
+.primeiro__item__botao{
+    background: transparent;
+    padding:  1em 2em;
+    border-radius: 1em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.primeiro__item__botao:hover{
+    transition: 0.7s;
+    cursor: pointer;
+
+    background: wheat;
+    box-shadow: 0 0 1em black;
+}
+.primeiro__item__botao:active{
+    background: yellow;
+    scale: 1.2;
+}

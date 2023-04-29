@@ -1,0 +1,71 @@
+.container {
+}
+.escola {
+  display: none;
+  margin: 1em;
+  border: solid 1px black;
+}
+.curso__titulo {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  width: 700px;
+  text-align: center;
+
+}
+.curso__titulo:hover {
+    transition: .5s;
+    box-shadow: 0 0 0.2em 0.1em black;
+    border-radius: 0.5em;
+}
+.curso__professor {
+  min-width: 700px;
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+  text-align: center;
+  background:black;
+  color: wheat;
+}
+.curso__professor__desafios {
+  border: solid 1px black;
+  text-align: center;
+  display: none;
+
+}
+.mostra {
+  display: block;
+  animation: show-down 1s forwards;
+}
+
+@keyframes show-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.desafios {
+}
+.desafios a, .direto a {
+  display: block;
+  padding: 0.4em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.desafios a:hover,
+.direto a:hover {
+  color: red;
+  font-weight: 700;
+  box-shadow: 0 0 0.2em 0.1em black;
+}
+.direto {
+  min-width: 700px;
+  text-align: center;
+}
+

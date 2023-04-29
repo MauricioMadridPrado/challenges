@@ -1,0 +1,18 @@
+
+.botao__ver__lista{
+    background: rgba(0, 0, 255, 0.1);
+    padding:  1em 2em;
+    border-radius: 1em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.botao__ver__lista:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background: wheat;
+    box-shadow: 0 0 1em black;
+}
+.botao__ver__lista:active{
+    background: yellow;
+    scale: 1.2;
+}

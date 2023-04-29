@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.questao{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.questao label{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    max-width: 500px;
+}
+.escolha{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap:1em;
+}
+.botao__questao , .botao__questao__final{
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    background: black;
+    color: wheat;
+    border-radius: 1em;
+
+}
+.botao__questao:hover{
+    transition: 600ms;
+    cursor: pointer;
+}
+.tecnologias__escolhidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+
+}
+.tecnologias__escolhidas input {
+   background: transparent;
+   text-align: center;
+   border-radius: 0.5em;
+   font-size: 1.5rem ;
+}
+
+.escolha__linguagem{
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5em 0 ;
+}
+.formulario__final{
+    margin-top: 10px;
+}

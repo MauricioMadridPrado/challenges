@@ -1,0 +1,62 @@
+body {
+
+}
+.numero__narcisista {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+input {
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  text-align: center;
+}
+span {
+  position: absolute;
+  top: 30px;
+  font-size: 2em;
+  box-shadow: 0 0 0.5em 0.25em black;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  display: none;
+}
+.btn {
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  background: black;
+  color: wheat;
+  text-align: center;
+}
+.verde,
+.vermelho {
+  display: block;
+}
+.verde {
+  background: rgba(0, 255, 0, 0.4);
+}
+.vermelho {
+  background: rgba(255, 0, 0, 0.4);
+}
+p {
+    font-size: 1.25rem;
+}
+a {
+    margin-left: 10px;
+    background: black;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: wheat;
+    padding: 0.5em;
+    display: inline-block;
+    cursor: pointer;
+}
