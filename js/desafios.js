@@ -50,6 +50,11 @@ export const desafios = [
         link: './pages/Matheus Castiglioni - JS e DOM 01/JS e DOM 3-7  Salvando os dados em uma tabela/index.html'
     },
     {
+        professor: 'Matheus Castiglioni',
+        nome: 'Dia 4,5,6 e 7',
+        link: './pages/Matheus Castiglioni - JS e DOM 01/JS e DOM final( fiz 4 , 5,6 e 7  juntos)'
+    },
+    {
         professor: 'Codewars',
         nome: 'Concatenando numeros ao quadrados',
         link: './pages/Codewars/quare-and-concat/'
@@ -61,4 +66,3 @@ export const desafios = [
     },
 
 ]
-
