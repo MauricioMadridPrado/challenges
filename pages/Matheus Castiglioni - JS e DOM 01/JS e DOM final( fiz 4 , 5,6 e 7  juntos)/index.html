@@ -19,7 +19,6 @@
             class="form-field js-field"
             id="name"
             required
-            pattern="([aA-zZ- ]+)"
             min="3"
             maxlength="120"
             name="name"
@@ -41,7 +40,7 @@
       </form>
 
       <table data-tabela="container" class="tabela">
-        <thead>
+        <thead data-tabela="localCabecalho">
           <tr data-tabela="cabecalho" class="tabela__cabecalho">
             <th>Nome</th>
             <th>Data de nascimento</th>
@@ -53,5 +52,40 @@
       </table>
       <script type="module" src="./js/main.js"></script>
     </main>
+
+    <section class="modal__container" data-modal="container">
+
+      <form data-modal="formulario" class="form js-form modal">
+        <h2>Formulario de edição</h2>
+        <div data-modal="erro"></div>
+        <label for="name">
+          Nome
+          <input
+            class="form-field js-field"
+            value=""
+            id="name-Edit"
+            required
+            min="3"
+            maxlength="120"
+            name="name"
+            required
+            type="text"
+          />
+        </label>
+        <label for="birth-date">
+          Data de Nascimento
+          <input
+            class="form-field js-field"
+            id="birth-date-edit"
+            value=""
+            name="birth-date"
+            required
+            type="date"
+            placeholder="dd-mm-yyyy"
+          />
+        </label>
+        <button id="botao__edit" type="submit">Salvar</button>
+      </form>
+    </section>
   </body>
 </html>

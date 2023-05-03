@@ -1,0 +1,38 @@
+.modal__container{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.ativa__modal{
+    display: flex;
+
+}
+.modal{
+    position: relative;
+
+}
+.modal label{
+
+}
+.modal input{
+
+}
+.moral__btn__fechar{
+    display: block;
+    background: red;
+    padding: 1em;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    cursor: pointer;
+}

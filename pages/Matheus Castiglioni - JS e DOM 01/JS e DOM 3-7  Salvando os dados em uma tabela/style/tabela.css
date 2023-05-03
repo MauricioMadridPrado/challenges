@@ -1,0 +1,20 @@
+.tabela__cabecalho th,
+.tabela__corpo td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 0.5em 1em;
+  font-size: 1.25rem;
+}
+
+.tabela {
+  border: 3px solid black;
+}
+.tabela__cabecalho {
+}
+.tabela__cabecalho th {
+  font-weight: bold;
+}
+.tabela__corpo {
+}
+.tabela__corpo td {
+}
