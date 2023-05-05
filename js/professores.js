@@ -2,7 +2,6 @@ export const professores = [
     {
         nome:'Rafa Ballerini',
         escola:'Alura'
-        
     },
     {
         nome:'Matheus Castiglioni',
@@ -15,5 +14,9 @@ export const professores = [
     {
         nome:'Codewars',
         escola:'Codewars'
+    },
+    {
+        nome:'Giovanna Moeller',
+        escola:'Alura' 
     },
 ]

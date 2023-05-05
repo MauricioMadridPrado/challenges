@@ -64,5 +64,10 @@ export const desafios = [
         nome: 'Numero narcisista',
         link: './pages/Codewars/narcissistic-number/'
     },
+    {
+        professor: 'Giovanna Moeller',
+        nome: 'Filmes populares',
+        link: './pages/Giovanna Moeller - guia de filmes/index.html',
+    }, 
 
 ]
