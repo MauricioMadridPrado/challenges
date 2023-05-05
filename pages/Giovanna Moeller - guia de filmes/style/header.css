@@ -1,0 +1,36 @@
+.header {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__title {
+    margin-bottom: 3rem;
+}
+.header__input {
+    margin-bottom: 2rem;
+    background: var(--color-input01);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size1);
+    padding: 1.625rem;
+    width: 39rem;
+    border-radius: .5rem;
+    
+}
+.header__checkbox__container{
+
+}
+.header__label__checkbox {
+
+}
+
+.header__checkbox {
+
+    display: inline-block;
+    background: var(--color-input01);
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
