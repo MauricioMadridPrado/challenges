@@ -65,6 +65,11 @@ export const desafios = [
         link: './pages/Codewars/narcissistic-number/'
     },
     {
+        professor: 'Codewars',
+        nome: 'Multiples-3-5',
+        link: './pages/Codewars/multiples-3-5/'
+    },
+    {
         professor: 'Giovanna Moeller',
         nome: 'Filmes populares',
         link: './pages/Giovanna Moeller - guia de filmes/index.html',
