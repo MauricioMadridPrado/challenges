@@ -6,6 +6,7 @@
   border: solid 1px black;
 }
 .curso__titulo {
+  font-family: 'Rubik', sans-serif;
   display: inline-block;
   cursor: pointer;
   padding: 0.5em 1em;
@@ -18,6 +19,7 @@
     transition: .5s;
     box-shadow: 0 0 0.2em 0.1em black;
     border-radius: 0.5em;
+    
 }
 .curso__professor {
   min-width: 700px;
