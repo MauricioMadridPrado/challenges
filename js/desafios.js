@@ -74,5 +74,10 @@ export const desafios = [
         nome: 'Filmes populares',
         link: './pages/Giovanna Moeller - guia de filmes/index.html',
     }, 
+    {
+        professor: 'Codewars',
+        nome: 'Isograms',
+        link: './pages/Codewars/Isograms/'
+    },
 
 ]
