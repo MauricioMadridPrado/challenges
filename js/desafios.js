@@ -79,5 +79,10 @@ export const desafios = [
         nome: 'Isograms',
         link: './pages/Codewars/Isograms/'
     },
+    {
+        professor: 'Codewars',
+        nome: 'Oulier number',
+        link: './pages/Codewars/oulier-number/'
+    },
 
 ]

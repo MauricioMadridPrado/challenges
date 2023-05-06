@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+h3 {
+    display: block;
+}
+span{
+    font-size: 1.25rem;
+}
+.border{
+border: black solid 1px;
+padding: 2em 3em;
+margin-top: 1em;
+}
