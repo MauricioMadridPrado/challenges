@@ -84,5 +84,9 @@ export const desafios = [
         nome: 'Oulier number',
         link: './pages/Codewars/oulier-number/'
     },
-
+    {
+        professor: 'Codewars',
+        nome: 'Find unique number',
+        link: './pages/Codewars/find-unique-number/'
+    },
 ]
