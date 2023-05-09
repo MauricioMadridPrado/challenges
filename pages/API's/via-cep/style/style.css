@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url("./addressForm.css");
 @import url("./cepForm.css");
 @import url("./searchButtonContainer.css");
@@ -17,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  font-family: 'Playfair Display', serif;
 }
 ul {
   display: flex;
