@@ -104,4 +104,10 @@ export const desafios = [
         nome: 'Blockchain',
         link: "./pages/API's/blockchain-api/"
     },
+    {
+        professor: "API's",
+        nome: 'Chuck Norris Joke',
+        link: "./pages/API's/chucknorris-api/"
+    },
+    
 ]
