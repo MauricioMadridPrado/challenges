@@ -1,0 +1,22 @@
+.form__address {
+}
+.address__list__container {
+
+}
+.address__list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.address__info{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+.address__info:first-child{
+ margin-top: 2rem;
+}
+
+.adresss__result__container{
+    max-height: 300px;
+    overflow: auto;
+}

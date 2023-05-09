@@ -89,4 +89,9 @@ export const desafios = [
         nome: 'Find unique number',
         link: './pages/Codewars/find-unique-number/'
     },
+    {
+        professor: "API's",
+        nome: 'Viacep',
+        link: "./pages/API's/via-cep/"
+    },
 ]

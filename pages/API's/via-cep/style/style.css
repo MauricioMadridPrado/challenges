@@ -1,0 +1,36 @@
+@import url("./addressForm.css");
+@import url("./cepForm.css");
+@import url("./searchButtonContainer.css");
+
+body,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+input {
+  text-align: center;
+  width: 300px;
+  font-size: 1.25rem;
+  border: 2px solid black;
+  border-radius: .5em;
+  padding: 0.5em 1em;
+}
+
+

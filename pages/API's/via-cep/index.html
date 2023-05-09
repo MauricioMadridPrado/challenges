@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Encontra Endereço</title>
+  </head>
+  <body>
+
+    <!-- <div class="select__container">
+      <p>Clique para alterar a forma de pesquisa</p>
+      <button class="select__form" data-selectContainer>CEP</button>
+    </div> -->
+
+    <section data-formContainer class=" form__cep__container">
+      <h1>Pesquisar endereço por CEP</h1>
+      <form class="form">
+        <ul class="form__lista__container">
+          <li>
+            <input
+              min="8"
+              data-address="input"
+              type="number"
+              placeholder="Digite seu cep aqui "
+            />
+          </li>
+          <button class="search__button" data-address="button">
+            &#128269;
+          </button>
+        </ul>
+      </form>
+
+      <ul data-address="container" class=" address__container"></ul>
+    </section>
+
+    <section data-formContainer class= 'form__container'>
+      <h1>Pesquisar CEP pelo Endereço</h1>
+      <form class="form__address">
+        <ul class="address__list__container">
+          <li class="address__list__item">
+            <input required id="estado"   placeholder="Digite o Estado" type="text" maxlength="2"/>
+            <input required id="cidade"  placeholder="Digite a cidade" type="text" />
+            <input required id="rua"  placeholder="Digite a rua" type="text" />
+          </li>
+          <button class="search__button" data-cep="button">
+            &#128269;
+          </button>
+        </ul>
+        <div class="adresss__result__container" data-addresContainer> 
+
+        </div>
+      </form>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,7 +1,6 @@
 .container__cards {
     padding: 8rem;
     font-size: var(--font-size1);
-
 }
 .card__movie {
     display: flex;
@@ -11,8 +10,12 @@
     margin-bottom: 3rem;
 }
 .card__img {
+    width: auto;
+    max-height: 300px;
     border-radius: 50%;
-    margin-right: 2rem;
+    object-fit: cover;
+    margin-right: 3rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card__info {
@@ -20,9 +23,6 @@
     min-width: 250px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-.card__info img{
-    margin-right: 0.5rem;
 }
 .card__icon{
     grid-row: 2/2;

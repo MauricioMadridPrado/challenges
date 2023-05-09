@@ -1,2 +1,2 @@
-import { createCard } from "./createCard.js";
-createCard()
+import { requestApi } from "./request.js";
+requestApi()

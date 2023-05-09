@@ -19,4 +19,8 @@ export const professores = [
         nome:'Giovanna Moeller',
         escola:'Alura' 
     },
+    {
+        nome:"API's",
+        escola:'Exercícios' 
+    },
 ]

@@ -5,5 +5,8 @@ export const escolas = [
     {
         nome:'Codewars'
     },
+    {
+        nome:'Exercícios'
+    },
 
 ]
