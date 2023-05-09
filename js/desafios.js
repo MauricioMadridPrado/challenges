@@ -94,4 +94,9 @@ export const desafios = [
         nome: 'Viacep',
         link: "./pages/API's/via-cep/"
     },
+    {
+        professor: 'Codewars',
+        nome: 'Is panagram?',
+        link: './pages/Codewars/isPanagram/'
+    },
 ]
