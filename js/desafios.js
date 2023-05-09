@@ -99,4 +99,9 @@ export const desafios = [
         nome: 'Is panagram?',
         link: './pages/Codewars/isPanagram/'
     },
+        {
+        professor: "API's",
+        nome: 'Blockchain',
+        link: "./pages/API's/blockchain-api/"
+    },
 ]
