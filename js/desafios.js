@@ -114,4 +114,9 @@ export const desafios = [
         nome: 'Bola que quica?',
         link: './pages/Codewars/bouce-ball/'
     },
+    {
+        professor: 'Codewars',
+        nome: 'Array diff',
+        link: './pages/Codewars/Array-diff/'
+    },
 ]
