@@ -109,5 +109,9 @@ export const desafios = [
         nome: 'Chuck Norris Joke',
         link: "./pages/API's/chucknorris-api/"
     },
-    
+    {
+        professor: 'Codewars',
+        nome: 'Bola que quica?',
+        link: './pages/Codewars/bouce-ball/'
+    },
 ]

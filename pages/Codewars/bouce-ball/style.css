@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 600px;
+    text-align: center;
+    margin: .5rem 0;
+}
+p{
+    max-width: 300px;
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
