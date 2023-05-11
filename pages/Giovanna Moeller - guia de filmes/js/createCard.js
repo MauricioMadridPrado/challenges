@@ -4,6 +4,7 @@ import { moviesInfo } from "./moviesInfo.js";
 // });
 
 export async function createCard(img, title, grade, descrip) {
+
   const cardContainer = document.querySelector('[data-card="container"]');
 
   cardContainer.innerHTML += `

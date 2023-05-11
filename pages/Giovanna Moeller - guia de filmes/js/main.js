@@ -1,2 +1,3 @@
-import { requestApi } from "./request.js";
-requestApi()
+import { handleSearch } from "./handleSearch.js"
+handleSearch()
+
