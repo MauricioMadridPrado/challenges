@@ -48,3 +48,13 @@
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size1);
 }
+.emptyHeart::before{
+    content: url('../assets/icons/emptyHeart.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.heart::before{
+    content: url('../assets/icons/heart.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
