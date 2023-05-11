@@ -119,4 +119,14 @@ export const desafios = [
         nome: 'Array diff',
         link: './pages/Codewars/Array-diff/'
     },
+    {
+        professor: "API's",
+        nome: 'Choose your pokemon',
+        link: "./pages/API's/choose-your-pokemon/"
+    },
+    {
+        professor: 'Codewars',
+        nome: 'Who likes it',
+        link: './pages/Codewars/who-likes-it/'
+    },
 ]
