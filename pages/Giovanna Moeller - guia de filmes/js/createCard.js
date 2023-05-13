@@ -23,9 +23,11 @@ export async function createCard(img, title, grade, descrip) {
        heart.addEventListener("click", (event) => {
         const fav = event.target;
         fav.classList.toggle('heart')
-        const content = event.target.parentNode.parentNode;
+        const content = event.target.parentNode.nextElementSibling;
+        const content1 =  event.target.parentNode.previousElementSibling;
+        const content2 = event.target.parentNode;
         favList.push(content)
-        console.log(content)
+        console.log(content, content1, content2)
       });
     });
 }
