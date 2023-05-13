@@ -5,8 +5,8 @@ export async function createCard(img, title, grade, descrip) {
   const cardContainer = document.querySelector('[data-card="container"]');
   cardContainer.innerHTML += `
     <section class="card__movie">
-    <div class="img__container">
-        <img class="card__img" src="${img}" alt="${title}" />
+    <div style= 'background-image: url(${img})' class="img__container">
+
     </div>
         <div class="card__info">
           <h3 class="card__info__titulo">${title}</h3>

@@ -1,60 +1,60 @@
 .container__cards {
-    padding: 8rem;
-    font-size: var(--font-size1);
+  padding: 8rem;
+  font-size: var(--font-size1);
 }
 .card__movie {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-card-backgroud);
-    padding: 2em;
-    margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-card-backgroud);
+  padding: 2em;
+  margin-bottom: 3rem;
 }
-.card__img {
-    width: auto;
-    max-height: 300px;
+.img__container {
+    min-width: 150px;
+    min-height: 150px;
     border-radius: 50%;
-    object-fit: cover;
-    margin-right: 3rem;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-right: 2rem;
+    background: #eee no-repeat center;
+    background-size: cover;
 }
 
 .card__info {
-    margin-right: 7.8125rem;
-    min-width: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin-right: 7.8125rem;
+  min-width: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.card__icon{
-    grid-row: 2/2;
+.card__icon {
+  grid-row: 2/2;
 }
 .card__info__titulo {
-    grid-column: 1/3;
-    grid-row: 1/1;
-    font-size: var(--font-size1);
-    font-weight: var(--font-weight-medium);
-    margin-bottom: 1.5rem;
+  grid-column: 1/3;
+  grid-row: 1/1;
+  font-size: var(--font-size1);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: 1.5rem;
 }
 .card__info__star {
-    grid-column: 1/2;
-    font-size: var(--font-size1);
+  grid-column: 1/2;
+  font-size: var(--font-size1);
 }
 .card__info__favorite {
-    grid-column: 2/3;
-    font-size: var(--font-size1);
+  grid-column: 2/3;
+  font-size: var(--font-size1);
 }
 .card__text__container {
 }
 .card__text {
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size1);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size1);
 }
-.emptyHeart::before{
-    content: url('../assets/icons/emptyHeart.svg');
-    background-repeat: no-repeat;
-    cursor: pointer;
+.emptyHeart::before {
+  content: url("../assets/icons/emptyHeart.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
-.heart::before{
-    content: url('../assets/icons/heart.svg');
-    background-repeat: no-repeat;
-    cursor: pointer;
+.heart::before {
+  content: url("../assets/icons/heart.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
