@@ -13,6 +13,8 @@
   width: 700px;
   text-align: center;
   border: 1px solid black;
+  background: rgba(0, 0, 0, 0.8);
+  color: wheat;
 
 }
 .curso__titulo:hover {
