@@ -7,6 +7,7 @@
 }
 .curso__titulo {
   font-family: 'Rubik', sans-serif;
+
   display: inline-block;
   cursor: pointer;
   padding: 0.5em 1em;
@@ -14,11 +15,12 @@
   text-align: center;
   border: 1px solid black;
   background: rgba(0, 0, 0, 0.8);
-  color: wheat;
+  color: rgb(248, 241, 230);
+
 
 }
 .curso__titulo:hover {
-    transition: .5s;
+    transition: .6s;
     box-shadow: 0 0 0.2em 0.1em black;
     border-radius: 0.5em;
     
@@ -29,7 +31,8 @@
   cursor: pointer;
   text-align: center;
   background:black;
-  color: wheat;
+  color: rgb(245, 234, 214);
+  border: 1px solid rgb(245, 234, 214);
 }
 .curso__professor__desafios {
   border: solid 1px black;
