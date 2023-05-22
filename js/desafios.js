@@ -129,4 +129,14 @@ export const desafios = [
         nome: 'Who likes it',
         link: './pages/Codewars/who-likes-it/'
     },
+    {
+        professor: 'Codewars',
+        nome: 'Who likes it',
+        link: './pages/Codewars/who-likes-it/'
+    },
+    {
+        professor: 'Senai',
+        nome: 'Controla peça',
+        link: './pages/Senai/controle-peca/'
+    },
 ]

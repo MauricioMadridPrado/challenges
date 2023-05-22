@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 200px;
+    padding: 1em 3em;
+    text-align: center;
+}
+select{
+    width: 150px;
+    padding: 1em;
+}
+h3{
+    text-align: center;
+}
+button{
+    padding: 0.5em 1.5em;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.registrar{
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    margin-top: 1em;
+    border-radius: 2em;
+    font-size: 1.25rem;
+    background: wheat;
+    font-weight: 700;
+}
+.registrar:hover{
+    border:2px solid red;
+}
+.sair{
+    margin-top: 1em;
+    background:  black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    color: wheat;
+}
+.sair:hover{
+    transition: 500ms;
+    scale: 1.2;
+    border: 3px solid wheat;
+}
+ 

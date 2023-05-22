@@ -6,6 +6,9 @@ export const escolas = [
         nome:'Codewars'
     },
     {
+        nome:'Senai'
+    },
+    {
         nome:'Exercícios'
     },
 
