@@ -120,16 +120,6 @@ export const desafios = [
         link: './pages/Codewars/Array-diff/'
     },
     {
-        professor: "API's",
-        nome: 'Choose your pokemon',
-        link: "./pages/API's/choose-your-pokemon/"
-    },
-    {
-        professor: 'Codewars',
-        nome: 'Who likes it',
-        link: './pages/Codewars/who-likes-it/'
-    },
-    {
         professor: 'Codewars',
         nome: 'Who likes it',
         link: './pages/Codewars/who-likes-it/'
@@ -138,5 +128,10 @@ export const desafios = [
         professor: 'Senai',
         nome: 'Controla peça',
         link: './pages/Senai/controle-peca/'
+    },
+    {
+        professor: "Google",
+        nome: 'Tempo para o natal',
+        link: './pages/Google/contador-para-o-natal/'
     },
 ]

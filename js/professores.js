@@ -27,4 +27,8 @@ export const professores = [
         nome:'Senai',
         escola:'Senai'
     },
+    {
+        nome:'Google',
+        escola:'Exercícios'
+    },
 ]
