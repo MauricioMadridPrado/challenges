@@ -134,4 +134,9 @@ export const desafios = [
         nome: 'Tempo para o natal',
         link: './pages/Google/contador-para-o-natal/'
     },
+    {
+        professor: 'Codewars',
+        nome: 'The hashtag generator',
+        link: './pages/Codewars/the-hashtag-generator/'
+    },
 ]
