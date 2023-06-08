@@ -5,7 +5,11 @@ export default async function fetchRandomImg() {
   const dbJson = await db.json();
   containerImg.innerHTML = 
   `
-    <img  data-img="img" src=" ${dbJson.message}"> 
-  `
+  <img
+  class="intro__img"
+  data-img="img"
+  src="${dbJson.message}"
+  />
+  `;
   animImg();
 }

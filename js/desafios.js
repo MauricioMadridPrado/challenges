@@ -141,7 +141,7 @@ export const desafios = [
     },
         {
         professor: "API's",
-        nome: 'Você gosta de cachorros?(construção)',
+        nome: 'Você conhece cachorros?',
         link: "./pages/API's/dog-api/"
     },
 ]

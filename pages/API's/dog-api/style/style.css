@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("./header.css");
+@import url("./intro.css");
+@import url("./dogsSearch.css");
+@import url("./footer.css");
+:root {
+  --font-text: 'Montserrat', sans-serif;
+  --font-titles: "Poppins", sans-serif;
+  --color-letter-titles:#ff4081;
+  --color-letter-text:#333333;
+  --color-letter-link:#ff6e40;
+  --color-backgroud-main:#fce4ec;
+  --color-border:#FF80AB;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h2 {
+  font-family: var(--font-titles);
+  color: var(--color-letter-titles) ;
+}
+p,
+span,
+a,
+option {
+  font-family: var(--font-text);
+  color: var(--color-letter-text) ;
+}
+a {
+  text-decoration: none;
+  color: var(--color-letter-link) ;
+}
+img{
+  border-radius: 1rem;
+}
+body {
+  background: var(--color-backgroud-main);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Cachorros! =D</title>
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">Você conhece seu cachorro?</h1>
+      <h1 class="header__title">Você conhece cachorros?</h1>
     </header>
 
     <main class="main">
-      <section class="content intro">
+      <section class="intro">
         <div class="intro__text__container">
           <p class="intro__text">
             Os cães são adoráveis e trazem alegria e amor incondicional às
@@ -24,24 +24,29 @@
             rosto. Com suas personalidades únicas e comportamentos adoráveis,
             eles se tornam verdadeiros companheiros fofos em nossa jornada.
           </p>
-          <div class="intro__img__container" data-img>
-            <img
-              class="intro__img"
-              data-img="img"
-              src="./assets/cachorro/img1.jpg"
-            />
-          </div>
+        </div>
+        <div class="intro__img__container" data-img>
+          <img
+            class="intro__img"
+            data-img="img"
+            src="./assets/cachorro/img1.jpg"
+          />
         </div>
       </section>
-      <section>
-        <select name="dogs" id="dogsSelection"></select>
-        <div data-dog="select"></div>
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <section class="dogs__search__container">
+        <h2 class="dogs__search__title">Selecione uma raça e veja uma imagem</h2>
+        <select class="dogs__search__select" name="dogs" id="dogsSelection"></select>
+        <div class="dogs__search__img"  data-dog="select"></div>
+        <div class="dogs__search__search" data-dog="pesquisa"></div>
       </section>
-      <div data-dog="pesquisa">
 
-      </div>
     </main>
 
     <script src="./js/main.js" type="module"></script>
+    <footer class="footer">
+      <p class="footer__text">Desenvolvido por <a href="https://github.com/MauricioMadridPrado">Maurício Madrid Prado</a></p>
+      <p class="footer__text">API utilizada - <a href="https://dog.ceo/dog-api/">Dog ceo</a></p>
+    </footer>
   </body>
 </html>

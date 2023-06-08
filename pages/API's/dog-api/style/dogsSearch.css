@@ -1,0 +1,36 @@
+.dogs__search__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0 4rem 0;
+}
+.dogs__search__title {
+  margin-top: 2rem;
+  text-align: center;
+}
+.dogs__search__select {
+  max-width: 250px;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: 0 0 0.1rem 0 var(--color-border);
+  border-radius: 3px;
+}
+.dogs__search__img {
+  min-height: 350px;
+}
+.dogs__search__search {
+  text-align: center;
+}
+.search__title {
+  font-size: 1.5rem;
+
+}
+.search__link__container {
+}
+.search__link {
+  font-size: 1.25rem;
+}
