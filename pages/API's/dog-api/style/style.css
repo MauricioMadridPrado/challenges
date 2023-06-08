@@ -3,6 +3,7 @@
 @import url("./intro.css");
 @import url("./dogsSearch.css");
 @import url("./footer.css");
+@import url("./mobile.css");
 :root {
   --font-text: 'Montserrat', sans-serif;
   --font-titles: "Poppins", sans-serif;

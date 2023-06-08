@@ -26,19 +26,4 @@
   height: 300px;
 }
 
-@media (max-width: 1000px) {
-  body {
-    .intro {
-      flex-direction: column;
-      padding: 0;
-    }
-    .intro__text__container {
-        width: 450px;
-    }
-    .intro__text {
-      font-size: 1rem;
-      height: 200px;
-      overflow: auto;
-    }
-  }
-}
+

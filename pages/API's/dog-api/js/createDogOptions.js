@@ -4,8 +4,8 @@ export default function createDogOptions(selectDogs, dogNamesJson) {
     selectDogs.innerHTML += `
           <option data-dog value="${dog}">${dog}</option>
           `;
-  });
 
+  });
   selectDogs.addEventListener("change", (event) => {
     fetchSelectedDog(event.target.value);
   });
