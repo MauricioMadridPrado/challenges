@@ -11,5 +11,6 @@ export default async function fetchRandomImg() {
   src="${dbJson.message}"
   />
   `;
-  animImg();
+  const image = document.querySelector('[data-img="img"]');
+  animImg(image, "X");
 }
