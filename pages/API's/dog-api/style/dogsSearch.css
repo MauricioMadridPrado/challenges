@@ -19,8 +19,11 @@
   box-shadow: 0 0 0.1rem 0 var(--color-border);
   border-radius: 3px;
 }
-.dogs__search__img {
-  min-height: 350px;
+.dogs__search__img{
+  min-height: 450px;
+}
+.dogs__search__img img {
+  max-height: 350px;
 }
 .dogs__search__search {
   text-align: center;
