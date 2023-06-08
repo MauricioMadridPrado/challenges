@@ -14,6 +14,13 @@
       overflow: auto;
     }
 
+    .dogs__search__search {
+      text-align: center;
+    }
+    .dogs__search__title {
+      width: 300px;
+      display: block;
+    }
   
     body {
  
