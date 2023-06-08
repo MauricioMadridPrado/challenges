@@ -139,4 +139,9 @@ export const desafios = [
         nome: 'The hashtag generator',
         link: './pages/Codewars/the-hashtag-generator/'
     },
+        {
+        professor: "API's",
+        nome: 'Você gosta de cachorros?',
+        link: "./pages/API's/dog-api/"
+    },
 ]
